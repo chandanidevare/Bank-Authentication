@@ -1,3 +1,4 @@
+
 import pandas as pd
 import numpy as np
 import joblib
@@ -33,3 +34,5 @@ print("Accuracy:", score)
 #save the model
 joblib.dump(classifier, 'classifier.pkl')
 print("Model saved successfully")
+
+
